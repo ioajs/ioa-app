@@ -1,0 +1,21 @@
+{
+   "name": "ioa-app",
+   "version": "1.0.0",
+   "description": "ioa单应用启动模板",
+   "scripts": {
+      "start": "node index.js",
+      "dev": "node index.js",
+      "test": "jtf -w"
+   },
+   "dependencies": {
+      "@koa/cors": "^2.2.2",
+      "batch-import": "^3.1.1",
+      "ioa": "^4.1.0"
+   },
+   "author": "",
+   "license": "ISC",
+   "devDependencies": {
+      "jtf": "^1.5.0",
+      "axios": "^0.18.0"
+   }
+}
