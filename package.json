@@ -10,7 +10,7 @@
    "dependencies": {
       "@koa/cors": "^2.2.2",
       "batch-import": "^3.1.1",
-      "ioa": "^4.1.0"
+      "ioa": "^4.3.0"
    },
    "author": "",
    "license": "ISC",
