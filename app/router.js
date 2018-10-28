@@ -2,13 +2,13 @@
 
 let { router, middleware } = require('ioa')
 
-let { token } = middleware
+let { cors } = middleware
 
-router.get('/', 'index.home')
+router.get('/', cors, 'index.home')
 
-router.post('/login', 'index.login')
+router.post('/login', cors, 'index.login')
 
-router.get('/news', 'news.home')
+router.get('/news', cors, 'news.home')
 
 router.get('/news/:id/details/:kk', 'news.details')
 

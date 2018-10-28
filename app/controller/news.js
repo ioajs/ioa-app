@@ -6,7 +6,7 @@ class news {
    }
    details(ctx) {
       ctx.body = {
-         parameter: ctx.parameter,
+         params: ctx.params,
          body: 'news details'
       };
    }
