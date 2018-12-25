@@ -1,6 +1,6 @@
 'use strict';
 
-let { router, middleware } = require('ioa')
+let { router, middleware } = require('@app')
 
 let { cors } = middleware
 

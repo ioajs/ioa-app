@@ -1,6 +1,6 @@
 'use strict';
 
-let { Controller } = require('ioa')
+let { Controller } = require('@app')
 
 class rest extends Controller {
    async index(ctx) {

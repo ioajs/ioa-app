@@ -1,5 +1,1 @@
-module.exports = app => {
-
-   return {}
-
-}
+module.exports = 888
