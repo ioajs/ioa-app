@@ -1,9 +1,7 @@
 'use strict';
 
-const { Controller } = require('@app')
-
-class index extends Controller {
-   home(ctx) {
+class home {
+   index(ctx) {
       ctx.body = 'hello ioa';
    }
    sms(ctx) {
@@ -18,4 +16,4 @@ class index extends Controller {
    }
 }
 
-module.exports = index
+module.exports = home

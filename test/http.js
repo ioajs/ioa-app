@@ -1,5 +1,7 @@
 'use strict';
 
-const app = require('ioa')
+const ioa = require('ioa');
 
-app.http()
+ioa.loader();
+
+ioa.http();

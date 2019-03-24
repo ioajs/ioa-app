@@ -1,7 +1,9 @@
 'use strict';
 
 const test = require('jtf')
-const { axios } = require('./helpers')
+const axios = require('axios')
+
+axios.defaults.baseURL = 'http://localhost:8800';
 
 test('get /', async t => {
    let { data } = await axios.get("/")
