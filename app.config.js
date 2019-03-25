@@ -1,10 +1,12 @@
 'use strict';
 
 module.exports = {
-   '@ioa/http': {
+   "./main": {
       "enable": true,
-      options(ioa, options) {
-         Object.assign(ioa.options, options);
-      }
+      "components": {
+         '@ioa/http': {
+            "enable": true,
+         },
+      },
    },
 }
