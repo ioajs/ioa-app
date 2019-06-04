@@ -10,9 +10,9 @@
       "test": "jtf -w"
    },
    "dependencies": {
-      "@ioa/http": "^7.0.0-alpha.6",
+      "@ioa/koa": "^7.0.0",
       "@koa/cors": "^2.2.3",
-      "ioa": "^7.0.0-alpha.9"
+      "ioa": "^7.1.0"
    },
    "author": "",
    "license": "ISC",

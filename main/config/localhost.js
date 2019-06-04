@@ -1,3 +1,9 @@
+'use strict';
+
 module.exports = {
-    port: 8800
+   "components": {
+      "@ioa/koa": {
+         port: 8800,
+      },
+   }
 }
