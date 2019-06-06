@@ -10,13 +10,13 @@
       "test": "jtf -w"
    },
    "dependencies": {
-      "@ioa/koa": "^7.0.0",
+      "@ioa/koa": "^8.0.2",
       "@koa/cors": "^2.2.3",
-      "ioa": "^7.1.0"
+      "ioa": "^8.0.0"
    },
    "author": "",
    "license": "ISC",
    "devDependencies": {
-      "axios": "^0.18.0"
+      "axios": "^0.18.1"
    }
 }
