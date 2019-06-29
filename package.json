@@ -12,7 +12,7 @@
    "dependencies": {
       "@ioa/koa": "^8.0.2",
       "@koa/cors": "^2.2.3",
-      "ioa": "^8.0.0"
+      "ioa": "^8.0.2"
    },
    "author": "",
    "license": "ISC",
