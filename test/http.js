@@ -3,7 +3,7 @@
 const test = require('jtf')
 const axios = require('axios')
 
-axios.defaults.baseURL = 'http://localhost:8800';
+axios.defaults.baseURL = 'http://localhost:8500';
 
 test('get /', async t => {
    let { data } = await axios.get("/")

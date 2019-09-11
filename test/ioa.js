@@ -2,13 +2,4 @@
 
 const ioa = require('ioa');
 
-ioa.loader({
-   "./main": {
-      "enable": true,
-      "components": {
-         '@ioa/koa': {
-            "enable": true,
-         },
-      },
-   },
-});
+ioa.loader("./main");
