@@ -1,22 +1,24 @@
 {
    "name": "ioa-app",
-   "version": "1.0.0",
+   "version": "9.5.0",
    "description": "ioa单应用启动模板",
    "scripts": {
       "start": "node index.js",
       "dev": "node index.js",
       "prd:test": "@powershell -Command $env:PORT='5600'; node index.js",
       "prd": "@powershell -Command $env:NODE_ENV='production'; node index.js",
-      "test": "jtf -w"
+      "test": "jtf"
    },
    "dependencies": {
-      "@ioa/koa": "^9.4.0",
+      "@ioa/config": "^9.5.0",
+      "@ioa/koa": "^9.5.0",
       "@koa/cors": "^3.0.0",
-      "ioa": "^9.4.0"
+      "ioa": "^9.5.0"
    },
    "author": "",
    "license": "ISC",
    "devDependencies": {
+      "ava": "^2.4.0",
       "axios": "^0.18.1"
    }
 }
