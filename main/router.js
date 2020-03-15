@@ -4,7 +4,7 @@ const { router, middleware } = require('@app');
 
 const { cors } = middleware;
 
-router.befor(cors);
+router.before(cors);
 
 router.get('/', 'home.index');
 
