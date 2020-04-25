@@ -1,5 +1,9 @@
 'use strict';
 
+const { config } = require('@app');
+
+// console.log(config)
+
 class home {
    index(ctx) {
       ctx.body = 'hello ioa';
@@ -16,4 +20,4 @@ class home {
    }
 }
 
-module.exports = home
+module.exports = home;
