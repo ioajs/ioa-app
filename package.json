@@ -10,7 +10,7 @@
       "@ioa/config": "^9.5.0",
       "@ioa/koa": "^9.7.10",
       "@koa/cors": "^3.0.0",
-      "ioa": "^9.7.9"
+      "ioa": "^9.8.1"
    },
    "author": "",
    "license": "ISC",

@@ -20,6 +20,10 @@ router.post('/sms/:id/sd/:kk', 'home.sms');
 
 router.get('/admin', 'admin.home.details');
 
+router.get('/asyncFunction', 'asyncFunction');
+
+router.get('/arrowFunction', 'arrowFunction');
+
 ////////// REST路由 ////////////
 
 // 模糊匹配路由，泛解析，通用模型控制器
