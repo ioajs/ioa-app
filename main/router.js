@@ -29,4 +29,4 @@ router.get('/arrowFunction', 'arrowFunction');
 // 模糊匹配路由，泛解析，通用模型控制器
 router.resources('/rest/:name', 'rest');
 
-// router.get('/rest/123', 'rest.123')
+// router.get('/rest/123', 'rest.123');

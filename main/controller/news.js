@@ -1,6 +1,6 @@
 'use strict';
 
-class news {
+class News {
    home(ctx) {
       ctx.body = 'news home';
    }
@@ -12,4 +12,4 @@ class news {
    }
 }
 
-module.exports = news
+module.exports = News;
