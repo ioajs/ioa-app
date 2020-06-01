@@ -1,7 +1,7 @@
 {
    "name": "ioa-app",
-   "version": "9.8.4",
-   "description": "ioa单应用启动模板",
+   "version": "9.8.6",
+   "description": "ioa单应用启动示例",
    "scripts": {
       "dev": "node index.js",
       "test": "jtf"
@@ -10,7 +10,7 @@
       "@ioa/config": "^9.5.0",
       "@ioa/koa": "^9.7.10",
       "@koa/cors": "^3.0.0",
-      "ioa": "^9.8.4"
+      "ioa": "^9.8.6"
    },
    "author": "",
    "license": "ISC",
