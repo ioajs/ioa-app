@@ -2,6 +2,6 @@
 
 module.exports = async function (ctx) {
 
-    ctx.body = {}
+    ctx.body = {};
 
 }

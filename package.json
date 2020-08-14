@@ -4,7 +4,7 @@
    "description": "ioa单应用启动示例",
    "scripts": {
       "dev": "node index.js",
-      "test": "jtf"
+      "test": "jmr"
    },
    "dependencies": {
       "@ioa/config": "^9.5.0",
