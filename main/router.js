@@ -1,6 +1,8 @@
 'use strict';
 
-const { router, middleware } = require('@app');
+const { config, router, middleware } = require('@app');
+
+// console.log(config)
 
 const { cors } = middleware;
 

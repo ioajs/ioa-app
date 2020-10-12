@@ -7,10 +7,11 @@
       "test": "jmr"
    },
    "dependencies": {
-      "@ioa/config": "^9.5.0",
+      "@ioa/config": "^10.0.0",
       "@ioa/koa": "^9.7.10",
       "@koa/cors": "^3.0.0",
-      "ioa": "^9.8.6"
+      "ioa": "^10.0.2",
+      "lloader": "^4.5.0"
    },
    "author": "",
    "license": "ISC",

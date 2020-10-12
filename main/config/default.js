@@ -2,7 +2,7 @@
 
 module.exports = {
    "@ioa/koa": {
-      port: 8500,
+      port: 5500,
       // debug: true,
    },
 }
