@@ -28,6 +28,11 @@ test('get /asyncFunction', async t => {
    t.deepEqual(data, {})
 });
 
+test('get /function', async t => {
+   const{ data } = await axios.get("/function");
+   t.deepEqual(data, {})
+});
+
 test('get /arrowFunction', async t => {
    const{ data } = await axios.get("/arrowFunction");
    t.deepEqual(data, 'arrowFunction')

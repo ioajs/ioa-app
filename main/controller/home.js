@@ -2,8 +2,6 @@
 
 const { config } = require('@app');
 
-// console.log(config)
-
 class Home {
    index(ctx) {
       ctx.body = 'hello ioa';

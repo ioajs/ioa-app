@@ -24,6 +24,8 @@ router.get('/admin', 'admin.home.details');
 
 router.get('/asyncFunction', 'asyncFunction');
 
+router.get('/function', 'function');
+
 router.get('/arrowFunction', 'arrowFunction');
 
 ////////// REST路由 ////////////
