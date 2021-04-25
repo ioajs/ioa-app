@@ -1,8 +1,6 @@
-'use strict';
+import ioa from 'ioa';
 
-const { config, router, middleware } = require('@app');
-
-// console.log(config)
+const { router, middleware } = ioa.app;
 
 const { cors } = middleware;
 

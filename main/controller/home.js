@@ -1,6 +1,6 @@
-'use strict';
+import ioa from 'ioa';
 
-const { config } = require('@app');
+const { config } = ioa.app;
 
 class Home {
    index(ctx) {
@@ -16,6 +16,6 @@ class Home {
          body
       };
    }
-}
+};
 
-module.exports = Home;
+export default Home;

@@ -1,16 +1,16 @@
 {
    "name": "ioa-app",
-   "version": "10.0.5",
+   "version": "10.0.6",
    "description": "ioa单应用启动示例",
+   "type": "module",
    "scripts": {
       "dev": "node index.js",
       "test": "jmr"
    },
    "dependencies": {
-      "@ioa/config": "^10.0.0",
-      "@ioa/koa": "^9.8.12",
-      "@koa/cors": "^3.0.0",
-      "ioa": "^10.0.5"
+      "@ioa/config": "^11.0.1",
+      "@ioa/koa": "^10.0.2",
+      "@koa/cors": "^3.0.0"
    },
    "author": "",
    "license": "ISC",

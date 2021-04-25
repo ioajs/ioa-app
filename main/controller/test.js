@@ -1,5 +1,3 @@
-'use strict';
-
 class Test {
    async index(ctx) {
       ctx.body = 'index'
@@ -18,4 +16,4 @@ class Test {
    }
 }
 
-module.exports = Test;
+export default Test;

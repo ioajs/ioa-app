@@ -1,5 +1,3 @@
-'use strict';
+import cors from '@koa/cors';
 
-const cors = require('@koa/cors');
-
-module.exports = cors({ origin: '*' });
+export default cors({ origin: '*' });

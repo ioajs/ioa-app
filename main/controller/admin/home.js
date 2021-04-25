@@ -1,6 +1,4 @@
-'use strict';
-
-class Home {
+export default class Home {
    async index(ctx) {
       ctx.body = 'index'
    }
@@ -16,6 +14,4 @@ class Home {
    async delete(ctx) {
       ctx.body = 'delete'
    }
-}
-
-module.exports = Home;
+};

@@ -1,5 +1,3 @@
-'use strict';
-
 class News {
    home(ctx) {
       ctx.body = 'news home';
@@ -12,4 +10,4 @@ class News {
    }
 }
 
-module.exports = News;
+export default News;
