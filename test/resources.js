@@ -1,8 +1,5 @@
-'use strict';
-
-const test = require('jmr');
-const axios = require('axios');
-
+import test from 'jtm';
+import axios from 'axios';
 
 test('resources get /rest/:name', async t => {
    const{ data } = await axios.get("/rest/sss")
