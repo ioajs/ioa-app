@@ -1,1 +1,1 @@
-ioa ts单应用启动示例
+ioa typescript 应用示例
