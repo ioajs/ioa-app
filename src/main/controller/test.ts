@@ -9,7 +9,7 @@ class Test {
       ctx.body = 'create'
    }
    async update(ctx) {
-      ctx.body = 'update';
+      ctx.body = 'update'
    }
    async destroy(ctx) {
       ctx.body = 'destroy'

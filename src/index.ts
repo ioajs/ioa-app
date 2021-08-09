@@ -1,3 +1,3 @@
 import ioa from 'ioa';
 
-ioa.apps("./main");
+ioa.apps("./main", "./admin");

@@ -4,7 +4,7 @@
    "type": "module",
    "description": "ioa ts单应用启动示例",
    "scripts": {
-      "watch": "tsc --watch",
+      "tsc": "tsc --watch",
       "build": "tsc",
       "dev": "node index.js",
       "test": "jtm"

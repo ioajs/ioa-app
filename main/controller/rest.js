@@ -6,11 +6,11 @@ class Rest {
         ctx.body = ctx.params;
     }
     async create(ctx) {
-        let body = ctx.request.body;
+        const body = ctx.request.body;
         ctx.body = body;
     }
     async update(ctx) {
-        let body = ctx.request.body;
+        const body = ctx.request.body;
         ctx.body = {
             body,
             params: ctx.params
