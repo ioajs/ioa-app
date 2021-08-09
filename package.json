@@ -1,6 +1,6 @@
 {
    "name": "ioa-ts",
-   "version": "12.0.3",
+   "version": "12.0.4",
    "type": "module",
    "description": "ioa ts单应用启动示例",
    "scripts": {
@@ -13,7 +13,7 @@
       "@ioa/config": "^12.0.0",
       "@ioa/koa": "^12.0.4",
       "@koa/cors": "^3.0.0",
-      "ioa": "^12.0.3"
+      "ioa": "^12.0.4"
    },
    "author": "",
    "license": "ISC",
