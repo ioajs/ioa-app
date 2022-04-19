@@ -1,4 +1,4 @@
-import { Controller, get, post } from '../../decorator.js';
+import { Controller, get, post } from '../decorator.js';
 
 @Controller
 class Home {

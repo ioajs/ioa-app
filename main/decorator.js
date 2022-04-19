@@ -4,12 +4,14 @@ export function Controller(controller) {
     };
 }
 export function get(path) {
+    // console.log(path);
     return function (target, name, value) {
-        console.log(path, name, value.value);
+        // console.log(name, value.value);
     };
 }
 export function post(path) {
+    // console.log(path);
     return function (target, name, value) {
-        console.log(path, name, value.value);
+        // console.log(name, value.value);
     };
 }

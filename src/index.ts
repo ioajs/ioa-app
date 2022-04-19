@@ -1,3 +1,7 @@
-import ioa from 'ioa';
+import { createApp } from 'ioa';
 
-ioa.apps("./main", "./admin");
+createApp({
+  main: "./main",
+  admin: "./admin"
+});
+

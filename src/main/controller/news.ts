@@ -1,4 +1,4 @@
-import { get, post } from '../../decorator.js';
+import { get, post } from '../decorator.js';
 
 class News {
    @get('/news')
