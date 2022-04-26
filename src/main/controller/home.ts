@@ -6,7 +6,7 @@ class Home {
    index(ctx) {
       ctx.body = 'hello ioa';
    }
-   @post('/sms')
+   @get('/sms/:id/sd/:kk')
    sms(ctx) {
       ctx.body = ctx.params;
    }

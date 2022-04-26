@@ -2,36 +2,36 @@ import test from 'jtm';
 import axios from 'axios';
 
 test('get /', async t => {
-   const{ data } = await axios.get("/")
-   t.ok(data)
+   const { data } = await axios.get("/")
+   t.ok(!data.error, data.error)
 });
 
 test('get /news', async t => {
-   const{ data } = await axios.get("/news")
-   t.ok(data)
+   const { data } = await axios.get("/news")
+   t.ok(!data.error, data.error)
 });
 
 test('get /sms/:id/sd/:kk', async t => {
-   const{ data } = await axios.get("/sms/666/sd/888")
+   const { data } = await axios.get("/sms/666/sd/888")
    t.deepEqual(data, { id: '666', kk: '888' })
 });
 
 test('get /admin', async t => {
-   const{ data } = await axios.get("/admin")
+   const { data } = await axios.get("/admin")
    t.deepEqual(data, 'details')
 });
 
 test('get /asyncFunction', async t => {
-   const{ data } = await axios.get("/asyncFunction");
+   const { data } = await axios.get("/asyncFunction");
    t.deepEqual(data, {})
 });
 
 test('get /function', async t => {
-   const{ data } = await axios.get("/function");
+   const { data } = await axios.get("/function");
    t.deepEqual(data, {})
 });
 
 test('get /arrowFunction', async t => {
-   const{ data } = await axios.get("/arrowFunction");
+   const { data } = await axios.get("/arrowFunction");
    t.deepEqual(data, 'arrowFunction')
 });
