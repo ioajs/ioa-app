@@ -1,6 +1,6 @@
 {
    "name": "ioa-ts",
-   "version": "13.0.0",
+   "version": "20.0.0",
    "type": "module",
    "description": "ioa ts应用示例",
    "scripts": {
@@ -10,15 +10,16 @@
       "test": "jtm"
    },
    "dependencies": {
-      "@ioa/config": "^13.0.0",
-      "@ioa/koa": "^13.0.0",
+      "@ioa/config": "^20.0.0",
+      "@ioa/http": "^20.0.5",
       "@koa/cors": "^3.0.0",
-      "ioa": "^13.0.1"
+      "ioa": "^20.0.5"
    },
-   "author": "",
+   "author": "lixiang",
    "license": "ISC",
    "devDependencies": {
       "@types/node": "^16.4.13",
-      "axios": "^0.26.1"
+      "axios": "^0.26.1",
+      "reflect-metadata": "^0.1.13"
    }
 }

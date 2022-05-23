@@ -1,9 +1,4 @@
-import { createApp } from 'ioa';
+import './index.js';
 import axios from 'axios';
 
 axios.defaults.baseURL = 'http://localhost:5500';
-
-await createApp({
-  main: "./main",
-  admin: "./admin"
-});

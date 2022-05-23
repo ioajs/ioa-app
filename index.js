@@ -1,5 +1,7 @@
 import { createApp } from 'ioa';
-createApp({
-    main: "./main",
-    admin: "./admin"
-});
+
+console.time()
+
+await createApp("./dist")
+
+console.timeEnd()
